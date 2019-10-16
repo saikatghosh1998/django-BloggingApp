@@ -5,3 +5,5 @@
 ### To run this project you will need to install : 
 - Python (download it from ​https://www.python.org/​) 
 - Django (install it using command  “​pip install django​” from command line) 
+
+### one can Read, add , edit and delete blogs in this app.
