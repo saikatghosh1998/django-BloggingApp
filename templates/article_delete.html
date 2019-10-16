@@ -1,0 +1,17 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+
+    <h1>
+        <font color="#f03e3e">Warning!!!</font>
+    </h1>
+
+
+    <h3>Are you sure to delete " {{batman.title}} " post</h3>
+    <input type="submit" class='btn-danger btn-lg' value="Delete">
+</form>
+
+
+{% endblock %}

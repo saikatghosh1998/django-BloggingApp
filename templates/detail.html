@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<!-- Blog Post Start -->
+<div class="col-md-12 blog-post">
+  <div class="post-title">
+
+    <h1>{{batman.title}}</h1>
+    <br />
+
+  </div>
+
+  <p>{{batman.text}}</p>
+
+</div>
+
+<h4><a href="{% url 'article_edit' batman.pk %}">Edit this post</a></h4>
+<h4><a href="{% url 'article_delete' batman.pk %}">delete this post</a></h4>
+<!-- Blog Post End -->
+
+{% endblock content %}
